@@ -38,7 +38,7 @@ export default function Addemployee(){
         }
         
         axios.post("http://localhost:5000/employee/add", newEmployee).then(()=>{
-            //alert("employee added")
+            //alert("employee added successfully")
         }).catch((err)=>{
             alert(err)
 
