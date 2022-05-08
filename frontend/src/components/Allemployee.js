@@ -22,7 +22,7 @@ export default function AllEmployee(){
         axios.delete(`http://localhost:5000/employee/delete/${id}`).then(()=>{
             swal({
                 title: "Are you sure?",
-                text: "The Employee Will be Deleted from Employee List",
+                text: "The Employee details Will be Deleted from Employee List",
                 icon: "warning",
                 buttons: true,
                 dangerMode: true,
