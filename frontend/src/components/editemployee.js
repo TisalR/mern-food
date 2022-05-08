@@ -143,7 +143,7 @@ export default class EditEmployee extends Component {
 
         axios.post('http://localhost:5000/employee/update/' + this.props.match.params.id, Employee)
             .then(res => console.log(res.data));
-        alert("Edit Successfully")
+        alert("Edit Successfull")
         window.location = '/all';
     }
 
