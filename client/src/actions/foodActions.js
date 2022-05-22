@@ -3,7 +3,7 @@ import axios from "axios";
 export const getAllFoods=()=>async dispatch=>{
 
     dispatch({type:'GET_FOODS_REQUEST'})
- 
+
     try {
         const response = await axios.get('/api/foods/getallfoods')
         console.log(response);
